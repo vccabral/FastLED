@@ -24,7 +24,7 @@
 #elif defined(__SAMD21G18A__) || defined(__SAMD21J18A__) || defined(__SAMD21E17A__) || defined(__SAMD21E18A__)
 #include "platforms/arm/d21/fastled_arm_d21.h"
 #elif defined(__SAMD51G19A__)
-#include "platforms/arm/d51/fastled_arm_d5p1.h"
+#include "platforms/arm/d51/fastled_arm_d51.h"
 #elif defined(ESP8266)
 #include "platforms/esp/8266/fastled_esp8266.h"
 #elif defined(ESP32)
